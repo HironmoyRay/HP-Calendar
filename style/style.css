@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.date-container{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows:40px repeat(5, 50px);
+    column-gap: 5px;
+    row-gap: 10px;
+}
+.date,.days{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.days{
+    background-color: antiquewhite;
+    font-size: 1.5rem;
+}
+.previous,.next{
+    background-color: azure;
+}
